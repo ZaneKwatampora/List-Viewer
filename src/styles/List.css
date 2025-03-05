@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: lightgray;
+}
+
+.container {
+    padding: 50px;
+}
+
+.container h1 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 2.4rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    list-style: none;
+}
+.container li {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container img {
+    border: 5px solid darkslategray;
+}
+
+.book-info h2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.book-info p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
