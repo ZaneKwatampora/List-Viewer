@@ -48,3 +48,22 @@
     font-size: 1.1rem;
     font-weight: 300;
 }
+
+.book-info a {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    display: block;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-out;
+}
+
+.book-info a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
